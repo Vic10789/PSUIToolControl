@@ -15,6 +15,7 @@
 		1C5331511FC1653E0055640E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5331501FC1653E0055640E /* main.m */; };
 		1C53315B1FC1653E0055640E /* PSUIToolControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53315A1FC1653E0055640E /* PSUIToolControlTests.m */; };
 		1C5331661FC1653E0055640E /* PSUIToolControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5331651FC1653E0055640E /* PSUIToolControlUITests.m */; };
+		1C5331751FC1656C0055640E /* PSUIToolsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5331731FC1656C0055640E /* PSUIToolsControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1C5331611FC1653E0055640E /* PSUIToolControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSUIToolControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5331651FC1653E0055640E /* PSUIToolControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSUIToolControlUITests.m; sourceTree = "<group>"; };
 		1C5331671FC1653E0055640E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C5331731FC1656C0055640E /* PSUIToolsControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSUIToolsControl.m; sourceTree = "<group>"; };
+		1C5331741FC1656C0055640E /* PSUIToolsControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSUIToolsControl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		1C5331401FC1653E0055640E /* PSUIToolControl */ = {
 			isa = PBXGroup;
 			children = (
+				1C5331741FC1656C0055640E /* PSUIToolsControl.h */,
+				1C5331731FC1656C0055640E /* PSUIToolsControl.m */,
 				1C5331411FC1653E0055640E /* AppDelegate.h */,
 				1C5331421FC1653E0055640E /* AppDelegate.m */,
 				1C5331441FC1653E0055640E /* ViewController.h */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5331751FC1656C0055640E /* PSUIToolsControl.m in Sources */,
 				1C5331461FC1653E0055640E /* ViewController.m in Sources */,
 				1C5331511FC1653E0055640E /* main.m in Sources */,
 				1C5331431FC1653E0055640E /* AppDelegate.m in Sources */,
